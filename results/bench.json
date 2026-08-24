@@ -1,0 +1,21 @@
+{
+  "pipeline_alerts": 100000,
+  "repeats": 3,
+  "throughput_alerts_per_sec": [
+    211166.4,
+    214564.7,
+    213275.7
+  ],
+  "throughput_best": 214564.7,
+  "throughput_median": 213275.7,
+  "replay_entries": 100000,
+  "replay_seconds": [
+    0.212,
+    0.2071,
+    0.205
+  ],
+  "replay_best_seconds": 0.205,
+  "replay_median_seconds": 0.2071,
+  "replay_entries_per_sec_median": 482918.7,
+  "note": "single thread, journal flushed per append without fsync"
+}
